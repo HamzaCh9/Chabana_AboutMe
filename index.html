@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hello Hamza@Welcome</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <style>
+        .custom-button {
+              margin-right: 10px;
+  /* Add any additional styling here */
+        }
+
+        .columns {
+          display: flex;
+        }
+  
+        .column.is-half {
+          flex: 1;
+          display: flex;
+          flex-direction: column;
+        }
+  
+        .column.is-half .card {
+          flex: 1;
+        }
+        .icon-text {
+  margin-left: 5px;
+}
+
+      </style>
+  </head>
+  <body>
+  <section class="section has-text-centered" >
+
+    <figure class="image container is-128*128 mb-4" >
+        <img class="is-rounded" src="https://cataas.com/cat" style="width: 100px; height: 100px;display: block; margin: 0 auto;" >
+    <p class="title">Hamza Page</p>
+    <p class="subtitle">@HamzaChabana</p>
+ 
+     <!-- This is a comment 
+    <p class="title is-4">Hamza Page</p>
+    <p class="subtitle is-6">@HamzaChabana</p>
+-->   
+<!--  
+   
+<a class="button is-info is-outlined is-rounded custom-button" href="#">Contact</a>
+<a class="button is-danger is-outlined is-rounded custom-button" href="#">LinkedIn</a>
+<a class="button is-dark is-outlined is-rounded custom-button" href="#">GitHub</a>
+-->
+<a class="button is-info is-outlined is-rounded" href={{url_for('contact')}} target="_blank">
+    <span class="icon">
+      <i class="fas fa-envelope"></i>
+    </span>
+    <span class="icon-text">Contact</span>
+  </a>
+  <a class="button is-danger is-outlined is-rounded" href="https://www.linkedin.com/in/hamza-chabana-6287201a0/" target="_blank">
+    <span class="icon">
+      <i class="fab fa-linkedin"></i>
+    </span>
+    <span class="icon-text">LinkedIn</span>
+  </a>
+  
+  <a class="button is-dark is-outlined is-rounded" href="#">
+    <span class="icon">
+      <i class="fab fa-github"></i>
+    </span>
+    <span class="icon-text">GitHub</span>
+  </a>
+  
+
+  
+
+    </figure>
+
+  </section>
+  <section class="columns">
+        <div class="column is-three-fifths is-offset-one-fifth has-background-light">
+            <div class="columns is-gapless">
+                
+                 <div class="column is=half">
+                    <div class="card m-3">
+                        <div class="card-content">
+                            <h1 class="title">About</h1>
+                                 <p style="text-indent: 20px;">I am currently in the process of transitioning my career to focus on data analysis and data engineering. Recognizing my passion for working with data and my interest in leveraging technology, I have embarked on a learning journey to acquire the necessary skills. I am actively studying various data analysis techniques, data visualization tools, programming languages such as Python and SQL..(Django, MongoDB, Flask, Docker, R, VBA, ), and statistical analysis methods. Through online courses, self-study, and practical projects, I am honing my skills to prepare myself for a career in the data field.</p>
+                        </div>
+                    </div>
+                    <div class="card m-3 has-background-link-light">
+                        <div class="card-content">
+                            <h1 class="title">Interests</h1>
+                            <p style="text-indent: 20px;">Alongside my career transition, I have a deep interest in the intersection of data, technology, and problem-solving. I am fascinated by the potential of data analysis and modeling to uncover insights, drive informed decision-making, and optimize processes across different industries. I am excited about the opportunities to work with data, collaborate with cross-functional teams, and contribute to impactful projects. Additionally, I am drawn to remote work possibilities that offer flexibility, a global network, and the chance to work on diverse projects with individuals from various backgrounds.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column is-half">
+                    <div class="card m-3 has-background-primary-light">
+                        <div class="card-content">
+                            <h1 class="title">Experience</h1>
+                                <div class="content">
+  <ul>
+    <li>I have gained some experience working in the manufacturing industry for a period of 6 months.</li>
+    <li>During this time, I was involved in various aspects of the manufacturing process, including process optimization, quality control, and production planning.</li>
+    <li>Although my time in manufacturing was brief, it provided me with valuable insights into operational processes and problem-solving techniques.</li>
+  </ul>
+</div>
+
+                        </div>
+                    </div>
+                    <div class="card m-3 has-background-warning-light">
+                        <div class="card-content">
+                            <h1 class="title">Education</h1>
+                                <div class="content">
+  <ul>
+    <li>I hold a degree in Industrial Engineering from the National School of Applied Science of Kenitra (Data-Oriented Industrial Engineer).</li>
+    <li>Throughout my studies, I acquired a strong foundation in industrial engineering principles, including topics such as operations management, supply chain analysis, and process improvement.</li>
+    <li>My educational background equips me with analytical skills and a problem-solving mindset, which are valuable assets in the field of data analysis and data engineering.</li>
+  </ul>
+</div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+        </div>
+        <div class="column is-full">
+            <div class="card m-3 has-background-success-light">
+                <div class="card-content">
+                    <h1 class="title">Life, Society & Culture</h1>
+                    <p>I come from the enchanting city of Fez, Morocco. Fez is known for its rich history and spirituality, once serving as a capital of the Idrissi dynasty. I have a deep passion for exploring the city's history and immersing myself in its cultural tapestry.<br><br></p>
+                    <p>As a wanderlust-driven traveler, I find great joy in venturing into uncharted territories and gaining diverse experiences. I believe that travel broadens our horizons and shapes our perspective on the world. Alongside my love for exploration, I have a keen interest in sports, adventures, and keeping up with the latest tech innovations.<br><br></p>
+                    <p>I am also an avid supporter of Maghreb of Fes, our local football team, and I enjoy being part of the camaraderie among fellow fans. Nature holds a special place in my heart, and I find solace in hiking through the majestic mountains surrounding Fez.<br><br></p>
+                    <p>One of my cultural ambitions is to promote cross-cultural exchanges and share the wonders of my city with tourists and visitors. By embracing new experiences and staying motivated to achieve my aspirations, I aim to create a fulfilling life that intertwines with the legacy of Fez.<br><br></p>
+
+                </div>
+            </div>
+        </div>
+    </div>  
+
+
+    
+  <section>
+
+
+
+
+
+  
+  </body>
+</html>
